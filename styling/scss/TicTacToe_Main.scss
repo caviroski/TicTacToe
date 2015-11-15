@@ -1,0 +1,59 @@
+// @author: igor.caviroski
+//
+// Styling for the Main page
+//
+// ==========================================================================
+
+@import "TicTacToe_Definitions";
+
+// ==========================================================================
+
+// Main page
+
+.players {
+	
+	// align table in center
+	position: absolute;
+    top: 45%;
+    left: 30%;
+	
+	.player {
+		width: 150px;
+		height: 30px;
+		border: 1px solid $ticTacToeColor1;
+		
+		// align name in center
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+.playing-table {
+	
+	// align table in center
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+	
+	.row {
+		
+		display: flex;
+		
+		.cell {
+			width: 100px;
+			height: 100px;
+			border: 1px solid $ticTacToeColor1;
+			cursor: pointer;
+			
+			// align x o in center
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			
+			font-size: $ticTacToeFontSize;
+		}
+	}
+}
