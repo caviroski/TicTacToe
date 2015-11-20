@@ -1,0 +1,13 @@
+{
+  "name": "tic-tac-toe",
+  "version": "0.1",
+  "license": "MIT",
+  "dependencies": {
+    "backbone": "*",
+    "underscore": "*",
+    "jquery": "*"
+  },
+  "authors": [
+    "igor caviroski"
+  ]
+}
