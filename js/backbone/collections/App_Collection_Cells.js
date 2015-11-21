@@ -19,6 +19,7 @@ App.Collections = App.Collections || {};
         },
         
         cellCliked:function(e) {
+            if (TicTacToe.GameOver) return;
             var model = this.models[e.model-1];
             var signTurn = TicTacToe.Player.get('signTurn');
             if (model.get('sign') === -1) {

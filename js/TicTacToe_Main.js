@@ -26,6 +26,7 @@ window.App = {
         TicTacToe.PlayerNames = new App.Views.PlayerNames({collection:TicTacToe.Players});
         TicTacToe.TableRow = new App.Views.TableRow();
         
+        TicTacToe.GameOver = false;
     }
 };
 

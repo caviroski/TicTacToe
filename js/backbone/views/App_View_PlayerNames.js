@@ -38,6 +38,7 @@ App.Views = App.Views || {};
         },
         
         displayWinner: function(e) {
+            TicTacToe.GameOver = true;
             if (e.winner === -1) {
                 this.$el.append("<div class=\"player\">Draw</div>");
             } else {
